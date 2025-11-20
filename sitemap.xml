@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>/</loc>
+        <priority>1</priority>
+        <changefreq>weekly</changefreq>
+        <lastmod>2025-11-20T15:59:17.764Z</lastmod>
+    </url><url>
+        <loc>/blog/2025/</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-11-20T15:59:17.764Z</lastmod>
+    </url><url>
+        <loc>/projets/zen-zen-diary/</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-11-20T15:59:17.764Z</lastmod>
+    </url>
+</urlset>
