@@ -112,8 +112,11 @@ main {
 article {
 	background: var(--clr1);
 	padding: 10px;
-	border-radius: 10px;
+	border-radius: 20px;
 	border: 5px dotted var(--clr-bg);
+	&>*:first-child {
+		margin-top: 0;
+	}
 	&>*:last-child {
 		margin-bottom: 0;
 	}
