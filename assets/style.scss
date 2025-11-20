@@ -47,7 +47,7 @@ $clr4: #f8719d;
 $clr5: #f293f9;
 $clr6: #462f40;
 
-$clr1: #e7e6f1;
+$clr1: #f0eff7;
 $clr2: #d293f9;
 $clr3: #ff86d3;
 $clr4: #e77e70;
@@ -107,6 +107,15 @@ main {
 		border-right: none;
 		border-left: none;
 		background: url('./dots.svg');
+	}
+}
+article {
+	background: var(--clr1);
+	padding: 10px;
+	border-radius: 10px;
+	border: 5px dotted var(--clr-bg);
+	&>*:last-child {
+		margin-bottom: 0;
 	}
 }
 .hide { display: none; }
