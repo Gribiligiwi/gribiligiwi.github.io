@@ -33,14 +33,28 @@ $clr1: #e6edf2; $clr2: #c96bf7; $clr3: #f875c0; $clr4: #f67257; $clr5: #f6ea56; 
 --clr6: #380950;
 */
 
-$clr1: #efebe0;
+/*$clr1: #efebe0;
 $clr2: #f5c9d3;
 $clr3: #f5e59b;
 $clr4: #ffa99c;
 $clr5: #cad1e0;
-$clr6: #777570;
+$clr6: #777570;*/
 
-$clrBg: color.adjust($clr2, $lightness: 3%);
+$clr1: #f3efe9;
+$clr2: #a896f9;
+$clr3: #ffc875;
+$clr4: #f8719d;
+$clr5: #f293f9;
+$clr6: #462f40;
+
+$clr1: #e7e6f1;
+$clr2: #d293f9;
+$clr3: #ff86d3;
+$clr4: #e77e70;
+$clr5: #f6e257;
+$clr6: #493148;
+
+$clrBg: color.adjust($clr2, $lightness: 15%);
 $clrText: color.adjust($clr6, $lightness: -3%);
 
 :root, [data-theme="light"] {

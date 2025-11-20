@@ -18,7 +18,8 @@ clr1:#e8f9ef clr2:#f1d2f0 clr3:#f2ffa4 clr4:#bbf1b6 clr5:#f3cec1 clr6:#59096e
 clr1:#f5e8ed clr2:#cec4ed clr3:#ee9fff clr4:#c2e6b5 clr5:#9bcffe clr6:#02216e
 clr1:#defbfb clr2:#c1d8d7 clr3:#f0eaaf clr4:#a8fed8 clr5:#e3b8dd clr6:#325360
 $clr1: #fadee5; $clr2: #e1e5c4; $clr3: #f8f3b1; $clr4: #f1b1e3; $clr5: #e7badc; $clr6: #590834;
-$clr1: #e4f2e5; $clr2: #f4bbd4; $clr3: #f3a9aa; $clr4: #e3b5f5; $clr5: #edfead; $clr6: #66004c; 
+$clr1: #e4f2e5; $clr2: #f4bbd4; $clr3: #f3a9aa; $clr4: #e3b5f5; $clr5: #edfead; $clr6: #66004c;
+$clr1: #e6edf2; $clr2: #c96bf7; $clr3: #f875c0; $clr4: #f67257; $clr5: #f6ea56; $clr6: #304932;
 
 --clr1: #f0fcff;
 --clr2: #dbd4eb;
@@ -27,15 +28,21 @@ $clr1: #e4f2e5; $clr2: #f4bbd4; $clr3: #f3a9aa; $clr4: #e3b5f5; $clr5: #edfead; 
 --clr5: #d5abfb;
 --clr6: #380950;
 */
+/*$clr1: #efebe0;
+$clr2: #f5c9d3;
+$clr3: #f5e59b;
+$clr4: #ffa99c;
+$clr5: #cad1e0;
+$clr6: #777570;*/
 :root, [data-theme=light] {
-  --clr1: #efebe0;
-  --clr2: #f5c9d3;
-  --clr3: #f5e59b;
-  --clr4: #ffa99c;
-  --clr5: #cad1e0;
-  --clr6: #777570;
-  --clr-bg: rgb(247.390625, 213.909375, 221.51875);
-  --clr-text: rgb(111.1181818182, 109.2506493506, 104.5818181818);
+  --clr1: #e7e6f1;
+  --clr2: #d293f9;
+  --clr3: #ff86d3;
+  --clr4: #e77e70;
+  --clr5: #f6e257;
+  --clr6: #493148;
+  --clr-bg: rgb(240.1973684211, 219.4736842105, 253.0263157895);
+  --clr-text: rgb(63.8450819672, 42.8549180328, 62.9704918033);
 }
 
 * {

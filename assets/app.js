@@ -41,7 +41,7 @@ const hexToHsl = hex => {
 	return {h, s: s * 100, l: l * 100}
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+const goColor = () => {
 	const root = document.documentElement
 
 	// hors arc-en-ciel
@@ -73,4 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	root.style.setProperty('--clr-bg', adjustLightness(clr2, 15))
 	root.style.setProperty('--clr-text', adjustLightness(clr6, -5))
-})
+}
+
+//goColor()
