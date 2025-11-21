@@ -33,12 +33,12 @@ $clr1: #e6edf2; $clr2: #c96bf7; $clr3: #f875c0; $clr4: #f67257; $clr5: #f6ea56; 
 --clr6: #380950;
 */
 
-/*$clr1: #efebe0;
+$clr1: #efebe0;
 $clr2: #f5c9d3;
 $clr3: #f5e59b;
 $clr4: #ffa99c;
 $clr5: #cad1e0;
-$clr6: #777570;*/
+$clr6: #777570;
 
 $clr1: #f3efe9;
 $clr2: #a896f9;
@@ -83,14 +83,14 @@ body, html {
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 22px;
+	font-size: 18px;
 	color: var(--clr-text);
 }
 .wrapper {
-	max-width: 800px;
+	max-width: 900px;
 	width: 100%;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 20px 0;
 }
 header {
 	@extend .wrapper;
@@ -99,6 +99,7 @@ header {
 	@extend .aic;
 	@extend .fww;
 	@extend .col;
+	@extend .jca;
 }
 main {
 	overflow-wrap: break-word;
@@ -111,15 +112,12 @@ main {
 }
 article {
 	background: var(--clr1);
-	padding: 10px;
-	border-radius: 20px;
-	border: 5px dotted var(--clr-bg);
-	&>*:first-child {
-		margin-top: 0;
-	}
-	&>*:last-child {
-		margin-bottom: 0;
-	}
+	padding: 20px;
+	border-top: 5px dotted var(--clr-bg);
+	border-bottom: 5px dotted var(--clr-bg);
+	
+	&>*:first-child { margin-top: 0; }
+	&>*:last-child { margin-bottom: 0; }
 }
 .hide { display: none; }
 h1, h2, h3, h4, h5, h6, strong { font-weight: 550; }
@@ -140,12 +138,25 @@ h2.normal {
 	@extend .tac;
 }
 
-@media screen and (min-width: 790px) {
-	header {
-		flex-direction: row !important;
+@media screen and (min-width: 510px) {
+	body, html { font-size: 20px; }
+	.wrapper { padding-inline: 15px; }
+	article {
+		border-radius: 20px;
+		border: 5px dotted var(--clr-bg);
 	}
-	footer nav {
-		flex-direction: row !important;
+}
+@media screen and (min-width: 600px) {
+	body, html { font-size: 21px; }
+}
+@media screen and (min-width: 790px) {
+	body, html { font-size: 22px; }
+	header { flex-direction: row !important; }
+	footer nav { flex-direction: row !important; }
+	.wrapper { padding-inline: 20px; }
+	article {
+		border-radius: 20px;
+		border: 5px dotted var(--clr-bg);
 	}
 }
 
@@ -161,6 +172,7 @@ h2.normal {
 	&.aie { align-items: flex-end; }
 
 	&.jcb { justify-content: space-between; }
+	&.jca { justify-content: space-around; }
 	&.jcc { justify-content: center; }
 	&.jcs { justify-content: flex-start; }
 	&.jce { justify-content: flex-end; }
