@@ -4,36 +4,41 @@
         <loc>/</loc>
         <priority>1</priority>
         <changefreq>weekly</changefreq>
-        <lastmod>2025-11-27T07:36:14.051Z</lastmod>
+        <lastmod>2026-01-27T09:39:56.254Z</lastmod>
+    </url><url>
+        <loc>/2026/</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-01-27T09:39:56.254Z</lastmod>
     </url><url>
         <loc>/2025/</loc>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2025-11-27T07:36:14.051Z</lastmod>
+        <lastmod>2026-01-27T09:39:56.254Z</lastmod>
     </url><url>
         <loc>/projets/zen-zen-diary/</loc>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2025-11-27T07:36:14.051Z</lastmod>
+        <lastmod>2026-01-27T09:39:56.255Z</lastmod>
     </url><url>
         <loc>/ecrire/</loc>
         <priority>0.6</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2025-11-27T07:36:14.028Z</lastmod>
+        <lastmod>2026-01-27T09:39:56.243Z</lastmod>
     </url><url>
         <loc>/ligne-editoriale/</loc>
         <priority>0.6</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2025-11-27T07:36:14.046Z</lastmod>
+        <lastmod>2026-01-27T09:39:56.252Z</lastmod>
     </url><url>
         <loc>/soutenir/</loc>
         <priority>0.6</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2025-11-27T07:36:14.049Z</lastmod>
+        <lastmod>2026-01-27T09:39:56.253Z</lastmod>
     </url><url>
         <loc>/studio/</loc>
         <priority>0.6</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2025-11-27T07:36:14.051Z</lastmod>
+        <lastmod>2026-01-27T09:39:56.254Z</lastmod>
     </url>
 </urlset>
